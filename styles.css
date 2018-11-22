@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  height:100 vh;
+  text-align:center;
+  background: url(img/space.png) no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+header{
+  height: 150px;
+}
+
+main{
+  height: calc(100vh - 150px - 35px);
+  padding: 10px;
+}
+
+  li {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 40px 10px;
+  }
+  img{
+  height:80px ;
+  width:80px;
+  padding: 10px;
+  transition: all 900ms ease-in-out;
+  }
+
+  img:hover{
+    padding: 0;
+  }
+button {
+  border: 2px solid #fe0800;
+  height: 50px;
+  width: 140px;
+  background-color: #fe0800;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background-color: transparent;
+  color: #fe0800
+}
+
+p{
+width: 35%;
+margin: 0 auto;
+padding-bottom: 40px
+}
